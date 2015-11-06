@@ -53,7 +53,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PostController : UIViewController <UITextFieldDelegate>
+@interface PostController : UIViewController <UITextFieldDelegate, NSStreamDelegate>
 {
     UITextField *               _urlText;
     UILabel *                   _statusLabel;

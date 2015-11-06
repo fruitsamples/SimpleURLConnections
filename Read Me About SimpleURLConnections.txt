@@ -1,10 +1,10 @@
 Read Me About SimpleURLConnections
 ==================================
-1.0
+1.1
 
 SimpleURLConnections shows how to do simple networking using the NSURLConnection API.  The goal of this sample is very limited: it does not demonstrate everything you need to implement a fully fledged networking product (more on this below), rather, its goal is to demonstrate simple uses of the NSURLConnection API.
 
-SimpleURLConnections requires iPhone OS 3.0 or later, although the core networking code should also work on iPhone OS 2.x and Mac OS X.
+SimpleURLConnections requires iOS 4.0 or later, although the core networking code should also work on iPhone OS 2.x and Mac OS X.
 
 Packing List
 ------------
@@ -63,7 +63,7 @@ The program has four built-in test images with exponentially increasing size.  T
 
 Building the Sample
 -------------------
-The sample was built using Xcode 3.2 on Mac OS X 10.6 with iPhone SDK 3.0.  You should be able to just open the project and choose Build from the Build menu.  The resulting program should be compatible with all devices running iPhone OS 3.0 and later.  The bulk of my testing was done with an iPod touch (second generation) running iPhone OS 3.0.
+The sample was built using Xcode 3.2 on Mac OS X 10.6 with iPhone SDK 4.0.  You should be able to just open the project and choose Build from the Build menu.  The resulting program should be compatible with all devices running iPhone OS 3.0 and later.  The bulk of my testing was done with an iPod touch (second generation) running iPhone OS 3.0.
 
 How It Works
 ------------
@@ -94,10 +94,10 @@ If you find any problems with this sample, please file a bug against it.
 <http://developer.apple.com/bugreporter/>
 
 1.0 (Sep 2009) was the first shipping version.
+1.1 (June 2010) updated the sample for iOS 4.0.
+
 
 Share and Enjoy.
 
 Apple Developer Technical Support
 Core OS/Hardware
-
-17 Sep 2009
